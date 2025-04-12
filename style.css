@@ -1,0 +1,395 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1500px;
+  height: 3000px;
+  display: flex;
+  flex-direction: column;
+  padding: 54px 136px;
+  gap: 50px;
+}
+.boshi {
+  align-items: center;
+  justify-content: space-between;
+
+  display: flex;
+  gap: 90px;
+}
+.ong p {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  color: blue;
+}
+.ong span {
+  color: red;
+}
+.chap {
+  display: flex;
+}
+.chap li {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: blue;
+  text-decoration: none;
+  display: flex;
+  transition: 0.5s;
+}
+.chap a:hover {
+  color: red;
+}
+.chap ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: end;
+}
+.chap {
+  width: 700px;
+  height: 52px;
+  display: flex;
+  gap: 10px;
+}
+.chap a {
+  text-decoration: none;
+}
+.chap button {
+  width: 120px;
+  height: 50.408084869384766px;
+  border: 1px solid red;
+
+  border-radius: 5px;
+
+  background-color: red;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.chap button:hover {
+  cursor: pointer;
+}
+.chap button:active {
+  background-color: pink;
+  color: red;
+}
+.ota {
+  width: 1250px;
+  height: 681px;
+  display: flex;
+}
+.a {
+  width: 625px;
+  height: 681px;
+  display: flex;
+  flex-direction: column;
+  padding: 160px 0px;
+  justify-content: center;
+  gap: 23px;
+}
+.a h1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: blue;
+}
+.a span {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: red;
+}
+.a p {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+.pbek {
+  width: 513px;
+  height: 66px;
+}
+.b {
+  width: 625px;
+  height: 681px;
+}
+.t {
+  width: 163px;
+  height: 50.4080810546875px;
+
+  border-radius: 5px;
+  background-color: red;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+  border: 1px solid red;
+  outline: none;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+}
+.t:hover {
+  cursor: pointer;
+}
+.t:active {
+  background-color: pink;
+  color: red;
+}
+.orta {
+  display: flex;
+  flex-direction: column;
+}
+.rasm {
+  width: 625px;
+  height: 681px;
+  transform: scaleX(-1);
+}
+.c {
+  width: 625px;
+  height: 681px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 60px 0px;
+  gap: 95px;
+}
+.sarlavha {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: blue;
+}
+.sarlavha span {
+  color: red;
+}
+.s {
+  width: 384px;
+  height: 100px;
+}
+.jbek {
+  width: 449px;
+  height: 103px;
+
+  opacity: 0.9;
+}
+.jbek p {
+  font-size: 20px;
+}
+.l {
+  width: 176px;
+  height: 58px;
+  top: 1515px;
+  left: 855px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
+.l:hover {
+  cursor: pointer;
+}
+.l:active {
+  background-color: pink;
+  color: red;
+}
+.sarlavha {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.pizzza {
+  width: 1200px;
+  height: 417px;
+  display: flex;
+  justify-content: space-between;
+}
+.bola {
+  width: 361px;
+  height: 417px;
+  display: flex;
+  flex-direction: column;
+}
+.sh {
+  width: 361px;
+  height: 299px;
+
+  border-top-left-radius: 53px;
+  border-top-right-radius: 5px;
+}
+.pizza {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.matn {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.soat {
+  width: 30px;
+  height: 30px;
+}
+.navara {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.matn button {
+  width: 79px;
+  height: 33px;
+  top: 2171px;
+  left: 1207px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: red;
+  border: 1 px solid red;
+  box-shadow: 0px 5px 12px 0px #ff683830;
+  outline: none;
+}
+.matn button:hover {
+  cursor: pointer;
+}
+.matn button:active {
+  background-color: pink;
+}
+.strelka {
+  width: 13.999858856201172px;
+  height: 12.012075424194336px;
+}
+.y {
+  width: 204.59626494121792px;
+  height: 442.7188050651002px;
+
+  border-radius: 30px;
+  border-width: 3px;
+}
+.u {
+  width: 214.53182983398438px;
+  height: 464.2160339355469px;
+
+  border-radius: 30px;
+  border-width: 3px;
+}
+.q {
+  width: 203.8504458594784px;
+  height: 441.96148085656273px;
+  top: 2388.9px;
+  left: 1154.01px;
+
+  border-radius: 30px;
+  border-width: 3px;
+}
+.ohiri {
+  width: 1170px;
+  height: 212px;
+  align-items: center;
+  justify-content: center;
+
+  border-width: 1px;
+  background-color: red;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ohiri h1 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+}
+.kok {
+  width: 191.10000610351562px;
+  height: 58.5px;
+
+  border-width: 1px;
+  border-radius: 70px;
+  background-color: red;
+  color: white;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 1px solid red;
+  outline: none;
+}
+.oh {
+  width: 838.5px;
+  height: 78px;
+  top: 3156.45px;
+  left: 303.75px;
+  border-width: 1px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+  padding: 10px 10px;
+}
+.yozuv {
+  display: flex;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  width: 600px;
+}
+.kok:active {
+  background-color: pink;
+  color: red;
+}
+.kok:hover {
+  cursor: pointer;
+}
+.b {
+  width: 616.742919921875;
+  height: 480.59326171875;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
